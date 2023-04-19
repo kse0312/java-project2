@@ -20,6 +20,10 @@ public class JavaInput {
         int asciiCode2 = 0;
         asciiCode1 = is.read();
         asciiCode2 = is.read();
-        System.out.println(asciiCode1 + " , " + asciiCode2);
+        //soutm, soutv
+        System.out.println("JavaInput.readTwoChars");
+        System.out.println("asciiCode1 = " + asciiCode1);
+        System.out.println("asciiCode2 = " + asciiCode2);
+
     }
 }
