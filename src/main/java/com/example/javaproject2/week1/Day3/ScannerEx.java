@@ -1,4 +1,4 @@
-package com.example.javaproject2.week1;
+package com.example.javaproject2.week1.Day3;
 
 import java.util.Scanner;
 
