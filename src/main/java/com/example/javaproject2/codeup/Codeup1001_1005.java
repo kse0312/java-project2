@@ -1,4 +1,4 @@
-package com.example.javaproject2.codeup.week1;
+package com.example.javaproject2.codeup;
 
 //2023-04-19
 public class Codeup1001_1005 {
