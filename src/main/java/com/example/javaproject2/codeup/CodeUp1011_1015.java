@@ -2,7 +2,7 @@ package com.example.javaproject2.codeup;
 
 import java.util.Scanner;
 
-public class Main {
+public class CodeUp1011_1015 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //        String str = sc.next();                                 //1011
@@ -14,7 +14,8 @@ public class Main {
 //        String str1 = sc.next();                                //1014
 //        String str2 = sc.next();
 //        System.out.println(str2 + " " + str1);
-
+//        float in = sc.nextFloat();                              //1015
+//        System.out.printf("%.2f",in);
 
     }
 }
