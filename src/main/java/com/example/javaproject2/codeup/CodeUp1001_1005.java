@@ -1,7 +1,7 @@
 package com.example.javaproject2.codeup;
 
 //2023-04-19
-public class Codeup1001_1005 {
+public class CodeUp1001_1005 {
     public static void main(String[] args) {
         //System.out.println("Hello");              //1001
         //System.out.println("Hello World");        //1002
