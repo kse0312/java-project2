@@ -6,12 +6,10 @@ public class StarStairs {
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
         for(int i = 1 ; i <= input ; i++){
-            for(int j = 0; j < input-i ; j++){
+            for(int j = 0; j < i ; j++){
                 System.out.printf(" ");
             }
-            for(int j = 0; j < i ; j++){
-                System.out.printf("*");
-            }
+            System.out.printf("**");
             System.out.printf("\n");
         }
     }
