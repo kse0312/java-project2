@@ -1,6 +1,8 @@
 package com.example.javaproject2.codeup;
 
+import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
 public class CodeUp1082_1084 {
@@ -20,26 +22,26 @@ public class CodeUp1082_1084 {
 //                System.out.printf("%d ",i);
 //        }
 
-//        int red = sc.nextInt();
-//        int blue = sc.nextInt();
-//        int green = sc.nextInt();
-//
-//        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
-//
-//        for(int i=0;i<red;i++)
-//        {
-//            for(int j=0;j<blue;j++)
-//            {
-//                for(int k=0;k<green;k++)
-//                {
-//
-//                    String st = i + " " + j + " " + k;
-//                    bf.write(st + "\n");
-//                    bf.flush();
-//                }
-//            }
-//        }
-//        bf.write(Integer.toString(red*green*blue));
-//        bf.close();
+        int red = sc.nextInt();
+        int blue = sc.nextInt();
+        int green = sc.nextInt();
+
+        BufferedWriter bf = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        for(int i=0;i<red;i++)
+        {
+            for(int j=0;j<blue;j++)
+            {
+                for(int k=0;k<green;k++)
+                {
+
+                    String st = i + " " + j + " " + k;
+                    bf.write(st + "\n");
+                    bf.flush();
+                }
+            }
+        }
+        bf.write(Integer.toString(red*green*blue));
+        bf.close();
     }
 }
