@@ -19,10 +19,10 @@ class Student{
         return name;
     }
 }
-public class CodeUp3108 {
+public class Main {
     private List<Student> students;
 
-    public CodeUp3108() {
+    public Main() {
         this.students = new ArrayList<>();
     }
 
@@ -63,7 +63,7 @@ public class CodeUp3108 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
-        CodeUp3108 main = new CodeUp3108();
+        Main main = new Main();
         String code = "";
         for(int i = 0 ; i < input ; i++){
             code = sc.next();
