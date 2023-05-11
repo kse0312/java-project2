@@ -30,6 +30,15 @@ public class Main {
         return new Student(number, name);
     }
 
+    public void process(String code, int numb, String name){
+        Student student = makeAStudent(numb, name);
+        if(code.equals("I")){
+            addAStudent(student);
+
+        }else{
+            removeAStudent(student);
+        }
+    }
     public void addAStudent(Student student){
         boolean check = true;
         for(Student temp : students)
@@ -69,13 +78,8 @@ public class Main {
             code = sc.next();
             int numb = sc.nextInt();
             String name = sc.next();
-            Student student = main.makeAStudent(numb, name);
-            if(code.equals("I")){
-                main.addAStudent(student);
+            main.process(code, numb, name);
 
-            }else{
-                main.removeAStudent(student);
-            }
         }
         main.listSort();
 
